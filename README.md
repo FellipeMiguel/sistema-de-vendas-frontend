@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Sistema de Vendas
+Este é o Front End sistema de vendas que permite que usuários façam login em um painel exclusivo, cadastrem vendas e acompanhem seu desempenho de forma gráfica.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Funcionalidades
+O sistema permite que os usuários:
+<ul>
+<li>Façam login em um painel exclusivo com nome de usuário e senha.</li>
+<li>Alterem seus dados pessoais, incluindo nome completo, senha, e-mail, telefone, estado, cidade e foto de perfil.</li>
+<li>Cadastrem vendas, incluindo informações como nome da empresa, nome do cliente, CNPJ, telefone, valor total, valor do frete, nome do produto, quantidade e status de compensação.</li>
+<li>Acompanhem seu desempenho de vendas de forma gráfica.</li>
+</ul>
+Tecnologias
+O sistema utiliza as seguintes tecnologias:
+<ul>
+  <li>Node.js: ambiente de tempo de execução JavaScript para o servidor</li>
+  <li>Express.js: framework de servidor para Node.js</li>
+  <li>MongoDB: banco de dados NoSQL para armazenar os dados</li>
+  <li>React: biblioteca JavaScript para construir interfaces de usuário</li>
+  <li>Chart.js: biblioteca JavaScript para criar gráficos</li>
+ </ul>
+# Instalação
+Para executar o sistema em sua máquina local, siga as instruções abaixo:
+<ol>
+  <li>Clone o repositório em sua máquina local:
 
-## Available Scripts
+  <code>git clone https://github.com/seu-usuario/sistema-de-vendas.git</code></li>
+<li>Instale as dependências do servidor:
+  
+  <code>cd sistema-de-vendas</code>
+  <code>npm install</code><li>
+  <li>Instale as dependências do cliente:
 
-In the project directory, you can run:
+  <code>cd client</code>
+  <code>npm install</code></li>
+<li>Inicie o servidor:
 
-### `npm start`
+<code>cd ..</code>
+  <code>npm start</code></li>
+<li>Inicie o cliente em outro terminal:
+  
+  <code>cd client</code>
+  <code>npm start</code></li>
+  <li>Acesse o sistema em http://localhost:3000.</li>
+</ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Contribuição
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
