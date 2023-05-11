@@ -15,7 +15,7 @@ const ModalStyle = styled.div`
     left: 50%;
     transform: translate(-50%, -50%) !important;
     width: 60%;
-    height: 65%;
+    height: 75%;
     background-color: #18243A;
     border-radius: 5px;
     font-weight: 700;
@@ -34,7 +34,8 @@ const ModalStyle = styled.div`
 
   .modalBody {
     background: #FFFFFF;
-    height: 75%;
+    display: flex;
+    flex-direction: column;
   }
 
   .modalFooter {
@@ -88,7 +89,6 @@ const ModalStyle = styled.div`
     flex-wrap: wrap;
     padding: 32px;
     width: 100%;
-    border: 1px solid red;
   }
 
   .form div {
@@ -110,6 +110,56 @@ const ModalStyle = styled.div`
     width: 100%;
     height: 48px;
     padding: 0.5rem;
+  }
+
+  .descricaoTitle {
+    border: 0.5px solid rgba(135, 139, 141, 0.5);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181C32;
+    padding: 15px 15px 15px 24px;
+    margin: 0 2rem;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .descricaoEsquerda {
+    display: flex;
+    gap: 62px;
+  }
+
+  .descricaoDireita {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .descricaoTitle h4 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #181C32;
+  }
+
+  .h4Descricao {
+    width: 325px;
+  }
+
+  .descricaoEsquerda02 {
+    align-items: center;
+    gap: 120px;
+  }
+
+  .descricaoDireita02 {
+    gap: 120px;
+  }
+
+  .margin {
+    margin-top: -14px;
+    margin-bottom: 10px;
   }
 `
 

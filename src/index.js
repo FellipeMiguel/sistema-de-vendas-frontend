@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import CastrarVendasPage from './Pages/CastrarVendas';
+import PerfilPage from './Pages/Perfil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CastrarVendasPage />
+    <PerfilPage />
   </React.StrictMode>
 );
 

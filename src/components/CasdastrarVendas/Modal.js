@@ -1,5 +1,6 @@
 import React from 'react'
 import ModalStyle from './modalStyle'
+import FormModal from './formModal'
 
 function Modal({isOpen, setModalOpen}) {
 
@@ -11,40 +12,29 @@ function Modal({isOpen, setModalOpen}) {
             <h2>Cadastrar Venda</h2>
           </div>
             <div className='modalBody'>
-              <form className='form' method="get">
-                <div>
-                  <label htmlFor='nomeEmpresa'>Nome da empresa</label>
-                  <input type='text' name='nomeEmpresa' placeholder='Digite o nome da empresa' />
+              <FormModal />
+              <div className='descricaoTitle'>
+                <div className='descricaoEsquerda'>
+                  <h3>Código do Orçamento</h3>
+                  <h3>Descrição do produto</h3>
                 </div>
-                <div>
-                  <label htmlFor='cnpj'>Nome do cliente</label>
-                  <input type='text' name='cnpj' placeholder='Digite o nome do cliente' />
+                <div className='descricaoDireita'>
+                  <h3>Quantidade</h3>
+                  <h3>Valor unitário</h3>
+                  <h3>Valor total</h3>
                 </div>
-                <div>
-                  <label htmlFor='nomeCliente'>CNPJ</label>
-                  <input type='text' name='nomeCliente' placeholder='00.000-000/0000-00' />
+              </div>
+              <div className='descricaoTitle margin'>
+                <div className='descricaoEsquerda02'>
+                  <h4>AA.AA.AA.AA</h4>
+                  <h4 className='h4Descricao'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </h4>
                 </div>
-                <div>
-                  <label htmlFor='clienteTelefone'>Telefone do cliente</label>
-                  <input type='text' name='clienteTelefone' placeholder='(00) 0000-0000' />
+                <div className='descricaoDireita02'>
+                  <h4>00</h4>
+                  <h4>00</h4>
+                  <h4>0</h4>
                 </div>
-                <div>
-                  <label htmlFor='valorTotal'>Valor Total</label>
-                  <input type='text' name='valorTotal' placeholder='00000' />
-                </div>
-                <div>
-                  <label htmlFor='valorFrete'>Valor Total</label>
-                  <input type='text' name='valorFrete' placeholder='00000' />
-                </div>
-                <div>
-                  <label htmlFor='produto'>Produto</label>
-                  <input type='text' name='produto' placeholder='Digite o nome do produto' />
-                </div>
-                <div>
-                  <label htmlFor='qtd'>Quantidade</label>
-                  <input type='text' name='qtd' placeholder='00000' />
-                </div>
-              </form>
+              </div>
             </div>
             <div className='modalFooter'>
               <div className='modalBtns'>
